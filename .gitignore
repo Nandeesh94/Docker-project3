@@ -1,0 +1,37 @@
+# Ignore common system and hidden files
+.bash_logout
+.bash_profile
+.bashrc
+.cshrc
+.docker/
+.ssh/
+.tcshrc
+.viminfo
+
+# Ignore temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# Ignore Terraform files (optional, if used)
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Ignore Docker build context leftovers (optional)
+**/node_modules
+

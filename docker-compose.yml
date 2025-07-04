@@ -4,7 +4,7 @@ services:
   movies-app:
     image: nandu90199/movies0:latest
     ports:
-      - 91:80
+      - 71:80
     deploy:
       replicas: 3
       restart_policy:
@@ -20,7 +20,7 @@ services:
   train-app:
     image: nandu90199/train0:latest
     ports:
-      - 82:80
+      - 72:80
     deploy:
       replicas: 3
       restart_policy:
@@ -36,7 +36,7 @@ services:
   dth-app:
     image: nandu90199/dth0:latest
     ports:
-      - 83:80
+      - 73:80
     deploy:
       replicas: 3
       restart_policy:
@@ -52,7 +52,7 @@ services:
   recharge-app:
     image: nandu90199/recharge0:latest
     ports:
-      - 84:80
+      - 74:80
     deploy:
       replicas: 3
       restart_policy:

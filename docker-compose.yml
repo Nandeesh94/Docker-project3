@@ -4,7 +4,7 @@ services:
   movies-app:
     image: nandu90199/movies0:latest
     ports:
-      - 81:80
+      - 91:80
     deploy:
       replicas: 3
       restart_policy:
